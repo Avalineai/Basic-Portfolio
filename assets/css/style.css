@@ -1,9 +1,14 @@
+
+body {
+    background-image: url("../images/white-waves.png");
+    margin: 0;
+}
+
 header {
     border-bottom: 2px solid #cccccc;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #ffffff;
     margin: 0 auto;
-    margin-top: -1.5em;
     width: 100%;
     height: 90px;
 }
@@ -52,6 +57,16 @@ h1 {
     flex-direction: row;
     justify-content: flex-end;
 }
+/*table CSS, but preferred Div look instead
+.th1 {
+    border-right: 1px solid #cccccc;
+    padding: 0 17px 0 17px;
+}
+
+.th2 {
+    padding-left: 17px;
+}
+*/
 
 .details1 {
     width: 90px;
@@ -102,7 +117,7 @@ img {
     padding: 10px 35px 15px 0;
 }
 
-#bio {
+.bio {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     word-wrap: wrap;
@@ -215,7 +230,7 @@ footer {
     line-height: 60px;
     color: #ffffff;
     background-color: #666666;
-    border-top: 6px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     margin-top: 2em;
     height: 4em;
     width: 100%;
