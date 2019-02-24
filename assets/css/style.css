@@ -84,19 +84,12 @@ section {
     width: 960px;
     height: auto;
 }
-
 #resize3 {
     width: 220px;
     height: auto;
     padding: 10px 35px 15px 0;
     float: left;
 }
-/*
-img {
-    float: left;
-    width: 200px;
-    padding: 10px 35px 15px 0;
-}*/
 /* contact page*/
 form, .bio {
     font-size: 17px;
@@ -118,6 +111,10 @@ input, textarea {
 }
 .textform {
     height: 250px;
+}
+::placeholder {
+    color: #E8E8E8;
+    opacity: 1;
 }
 button {
     border-radius: 3px;
