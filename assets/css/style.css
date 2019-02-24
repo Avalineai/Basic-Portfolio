@@ -1,27 +1,19 @@
-
 body {
     background-image: url("../images/white-waves.png");
     margin: 0;
-   /* height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;*/
 }
-
 header {
     border-bottom: 2px solid #cccccc;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #ffffff;
     margin: 0 auto;
-    width: 100%;
+    width: 100vw;
     height: 90px;
 }
-
 a {
     text-decoration: none;
     color: #cccccc;
     }
-
 .container1 {
     margin: 0 auto;
     width: 960px;
@@ -31,38 +23,25 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-
 .name {
      width: 225px;
-     background: #4aaaa5;
+     background-color: #4aaaa5;
      display: flex;
      height: 90px;
      justify-content: center;
      align-items: center;
 }
-
-.name:hover {
+.name:hover, button:hover, div.game:hover {
     background-color: #009999;
 }
-div.a:hover {
-    display: block;
-    width: 225px;
-    height: 90px;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
-}
-
 h1 {
     font-size: 28px;
     color:  #ffffff;
 }
-
 .namelink {
     text-decoration: none;
     color: #ffffff;
 }
-
 /*Nav bar elements-right of header*/
 .container2 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -73,31 +52,12 @@ h1 {
     flex-direction: row;
     justify-content: flex-end;
 }
-/*table CSS, but preferred Div look instead
-.th1 {
-    border-right: 1px solid #cccccc;
-    padding: 0 17px 0 17px;
-}
-
-.th2 {
-    padding-left: 17px;
-}
-*/
-
 .details1 {
-    width: 90px;
-    border-right: 1px solid #cccccc;
-    display: flex;
-    justify-content: center;
-}
-
-.details2 {
     width: 100px;
     border-right: 1px solid #cccccc;
     display: flex;
     justify-content: center;
 }
-
 .details3 {
     width: 80px;
     display: flex;
@@ -111,14 +71,12 @@ h2 {
     width: 900px;
     border-bottom: 2.7px solid #dddddd;
 }
-
 .container3 {
     margin: 0 auto;
     width: 900px;
     height: auto;
 }
-
-.aboutme {
+section {
     background-color: #ffffff;
     margin: 0 auto;
     margin-top: 20px;
@@ -127,49 +85,41 @@ h2 {
     height: auto;
 }
 
+#resize3 {
+    width: 220px;
+    height: auto;
+    padding: 10px 35px 15px 0;
+    float: left;
+}
+/*
 img {
     float: left;
     width: 200px;
     padding: 10px 35px 15px 0;
-}
-
-.bio {
+}*/
+/* contact page*/
+form, .bio {
+    font-size: 17px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    word-wrap: wrap;
     line-height: 2.5em;
 }
-
-/* contact page*/
-.formstyle {
-    font-size: 19px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    line-height: 1.7em;
-}
-
-input {
+input, textarea {
     line-height: 2em;
-    text-indent: 10px;
     font-size: large;
     color: #777777;
-    border-radius: 3px;
     border: 1.3px solid #cccccc;
+    border-radius: 3px;
+    width: 99.5555%;
+}
+.inpsub {
     margin-bottom: 20px;
-    width: 99.5555%;
+    text-indent: 10px;
 }
-
-textarea {
-    line-height: 2em;
-    font-size: large;
-    color: #777777;
-    border: 1.3px solid #cccccc;
-    border-radius: 3px;
-    width: 99.5555%;
+.textform {
     height: 250px;
 }
-
-.sbutton {
+button {
     border-radius: 3px;
     font-size: 17px;
     background-color: #4aaaa5;
@@ -178,26 +128,14 @@ textarea {
     width: 120px;
     margin: 10px 0 40px 0;
 }
-
-.sbutton:hover {
-    background-color: #009999;
-}
-
 /*portfolio page*/
 h3 {
     color: #ffffff;
     font-family: Times, 'Times New Roman', serif;
     font-weight: lighter;
     font-size: 24px;
-    display: block;
     height: 75px;
 }
-
-h3 a {
-    text-decoration: none;
-    color: #ffffff;
-    }
-
 .container4 {
     margin: 0 auto;
     width: 900px;
@@ -206,24 +144,17 @@ h3 a {
     flex-flow: wrap;
     align-content: space-between;
 }
-
 .resize {
     width: 350px;
     height: auto;
 }
-
 .imagebox {
     width: 350px;
     height: 260px;
     margin: 0 40px 60px 0;
     position: relative;
 }
-
-.boxinbox {
-    float: left;
-}
-
-.game2 {
+.game {
     background-color: #4aaaa5;
     text-align: center;
     position: absolute;
@@ -231,40 +162,32 @@ h3 a {
     left: 0;
     right: 0;
     height: 75px;
+    margin-bottom: 10px;
 }
-
-div.game2:hover {
-    background-color: #009999;
-}
-
 /*error page*/
-
 .container5 {
     margin: 0 auto;
     width: 900px;
     height: 700px;
 }
-
 .resize2 {
     width: 700px;
     height: auto;
 }
-
 /*footer*/
 footer {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
-    line-height: 60px;
-    color: #ffffff;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     margin-top: 2em;
     height: 4em;
-    width: 100%;
+    width: 100vw;
     position: relative;
     bottom: 0;
 }
-
 #copyright {
     font-size: small;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-top: 2%;
 }
