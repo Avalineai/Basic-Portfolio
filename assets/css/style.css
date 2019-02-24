@@ -178,7 +178,7 @@ footer {
     border-top: 8px solid #4aaaa5;
     margin-top: 2em;
     height: 4em;
-    width: 100vw;
+    width: 100%;
     position: relative;
     bottom: 0;
 }
