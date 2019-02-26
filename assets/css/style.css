@@ -1,6 +1,8 @@
 body {
     background-image: url("../images/white-waves.png");
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 header {
     border-bottom: 2px solid #cccccc;
@@ -83,6 +85,7 @@ section {
     border: 2px solid #dddddd;
     width: 960px;
     height: auto;
+    flex: 1 0 auto;
 }
 #resize3 {
     width: 220px;
@@ -177,8 +180,7 @@ footer {
     margin-top: 2em;
     height: 4em;
     width: 100%;
-    position: relative;
-    bottom: 0;
+    flex-shrink: 0;
 }
 #copyright {
     font-size: small;
